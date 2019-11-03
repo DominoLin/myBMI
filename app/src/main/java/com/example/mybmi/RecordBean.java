@@ -1,6 +1,8 @@
 package com.example.mybmi;
 
-public class RecordBean {
+import org.litepal.crud.LitePalSupport;
+
+public class RecordBean extends LitePalSupport {
     private String time;
     private double result;
 
